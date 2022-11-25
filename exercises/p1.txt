@@ -1,0 +1,15 @@
+1) write a program to take a input from the user and print the details
+   *Employee Name
+   *Employee Age
+   *Employee Phone Number\
+   *EMployee Address
+along with this print the type of all the variables
+
+2)write a program to take a input from the user and print the details
+  *Student Name 
+  *Student maths marks
+  *Student science marks
+
+->print student name in Upper case
+->add students marks (math+science) then print the total marks
+->then find the average of two subjects
