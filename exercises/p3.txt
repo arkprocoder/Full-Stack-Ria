@@ -1,0 +1,19 @@
+1)Take a inputs and Evaluate the expressions
+a)Take the Students name
+b)Take the student english marks
+maths,science,social,kannada,hindi
+c)add the total marks 
+d)print average
+e)add languages marks (english,kannada,hindi)and print average
+f)add the core subjects (maths,science and social)and print average
+
+2)create a list mylist
+add "apple","banana","orange","mosambi"
+a)append "pineapple"
+b)remove "orange" and find the length of list
+c)print "banana, mosambi, pineapple"
+
+d)add new list to the existing [1,2,3,4]
+e)print only [1,2,3,4] and reverse [4,3,2,1]----*--+
+
+
