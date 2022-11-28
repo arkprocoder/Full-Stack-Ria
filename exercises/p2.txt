@@ -5,9 +5,9 @@ a)Add the items in list
 b)Find the length of the list
 c)sort the elements from the list
 d)reverse the list
-e)Count the duplicates elementsfrom the list (3,2)
+e)Count the duplicates elements from the list (3,2)
 g)print "Institue" using slicing
-h)print "Institue" using Technology
+h)print "Institue" using negative index
 i)print "Ria Institue of"
 j)print "Rs"
 

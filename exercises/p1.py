@@ -6,4 +6,4 @@ print("i am converting the name into uppercase")
 print("Name is ",name.upper())
 total=maths+science
 print("total marks obtained by ",name,':',total)
-print("average marks obtained by ",name,':',total/2)
+print("average marks obtained by ",name,':',total//2)

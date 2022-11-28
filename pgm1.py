@@ -1,9 +1,10 @@
 print("hello world")
-# print('ria inst')
-# print('''
-# a
-# d
-# d
-# d
-# ''')
+print('ria inst')
+print('''
+hi
+d
+
+d
+daaa
+''')
 

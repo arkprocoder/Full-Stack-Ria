@@ -1,6 +1,6 @@
 # how to take input from the user
 
-name=input("Enter Your Name\n")
+name=input("Enter Your Name\t")
 age=int(input("Enter Your Age\n"))
 salary=float(input("Enter Your Salary\n"))
 print("Name is ",name)

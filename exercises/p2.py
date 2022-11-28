@@ -1,0 +1,31 @@
+mylist=[23,4,5,6,7,8,1,2,3,9,0,122,10,2,3,4,3,3,2]
+# mylist.append(456)
+'''print(mylist)
+print(len(mylist))
+mylist.sort()
+print(mylist)
+# mylist.reverse()
+# print(mylist)
+print(mylist[::-1])
+print(mylist.count(3))
+print(mylist.count(2))
+mystr= "Ria Institue of Technology"
+print(mystr[4:12]) 
+print(mystr[-22:-14]) 
+print(mystr[:15]) 
+print(mystr[:7:6]) 
+mystr=mystr+" Marathalli"
+print(mystr)
+print(len(mystr))
+print(mystr[::-1])
+'''
+print(mylist[6:9])
+print(mylist[9:15])
+print(mylist[5:])
+print(mylist[12:])
+print(mylist[12::2])
+print(mylist[3:10:2])
+print(mylist[3:10:2])
+
+print(mylist[6::4])
+print(mylist[-13::4])

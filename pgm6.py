@@ -1,14 +1,14 @@
 # String Slicing
 mystr="Never Give Up"
-'''print(mystr[:])
-print(mystr[2:5])
-print(mystr[6:11])
-print(mystr[0:10])
-print(mystr[:10])
-print(mystr[8:13])
-print(mystr[8:])
+print(mystr[:])
+# print(mystr[2:6])
+# print(mystr[6:11])
+# print(mystr[0:10])
+# print(mystr[:10])
+# print(mystr[8:13])
+# print(mystr[8:])
 print(mystr[::2])
-print(mystr[6::3])'''
+# print(mystr[6::3])
 
 '''mystr="RiaUniversity"
 print(mystr[-2:])
