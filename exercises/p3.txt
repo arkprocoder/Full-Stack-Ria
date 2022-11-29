@@ -7,7 +7,7 @@ d)print average
 e)add languages marks (english,kannada,hindi)and print average
 f)add the core subjects (maths,science and social)and print average
 
-2)create a list mylist
+2)create a list mylist  ``  `
 add "apple","banana","orange","mosambi"
 a)append "pineapple"
 b)remove "orange" and find the length of list
