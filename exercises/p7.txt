@@ -1,0 +1,7 @@
+1)write a 4 functions
+a)to find the area of circle
+b) to find the area of rectangle
+c)to find the area of square
+d)find the area of triangle
+use return statements and print it 
+for taking the inputs use input()

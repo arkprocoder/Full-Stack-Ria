@@ -10,7 +10,7 @@ b)union the set with 7,4,5,9,0,10
 c)find the common elements using intersection
 
 3)write a python program
-to create a new file name "raifile.txt"
+to create a new file name "ark.txt"
 a)add below content using write file
 "Ria Institue of Technology
 Ria is at Marathalli Bangalore
