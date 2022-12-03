@@ -5,9 +5,7 @@ def circle():
     result=r*r*math.pi
     print("area of the circle is ",result)
     operation()
-
     
-
 def rectangle():
     l=int(input("enter the length:\t"))
     b=int(input("enter the breadth:\t"))

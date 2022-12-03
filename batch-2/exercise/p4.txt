@@ -1,0 +1,38 @@
+1. Write a program to print the odd numbers from 1 to 100
+2. Write a program to print the even numbers from 1 to 100
+3. Write a program to print {20,40,60,80,100} using for loop
+4. Using while loop 
+a)print the number 1 to 10
+b)print the numbers 1 to 100  and it should print only even numbers
+c)print the numbers 1 to 100 and should print only odd numbers
+ and it should break the loop when value becomes 51
+d)print the numbers 1 to 100 and should print 100 and skip 55 using continue
+
+5. Write a program to print the tables from 1 to 10
+take a input from user.
+
+2 x 1= 2
+..
+..
+2 x 10 =20
+
+6. Write a program to validate a person can vote or not
+*take the age as input from the user
+if age is less than 18 print he cannot vote
+if age is greater than 18 print he can vote
+if age is greater than 90 print please stay at home
+if age is 18 than  print please make the voter id
+
+7.Take a inputs and Evaluate the expressions
+a)Take the Students name
+b)Take the student english marks
+maths,science,social,kannada,hindi while taking the inputs it should be in tha range (0-100)
+c)calculate the % and print
+
+% <35% print fail and print the Grade 'f'
+% >35% and <55% print just pass and print the Grade 'd'
+% >55% and <60% print  pass and print the Grade 'c'
+% >60% and <75% print  average and print the Grade 'b'
+% >75% and <90% print  good and print the Grade 'a'
+% >90% and <100% print  excellent  and print the Grade 'A+'
+

@@ -1,5 +1,5 @@
 # operators in python
-# +,-,==,*,/,%
+# +,-,==,*,/,%,//
 
 # And Operation
 # True= True False = false 
@@ -29,7 +29,7 @@
 # 2<3=True
 # 5>2=True
 # 10<=20= True
-# 20>=20 =True
+# 20>20 =True
 # 20==20 = True
 # 10!=20=True
 # 20!=20=False
