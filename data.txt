@@ -1,3 +1,24 @@
-Ria Institute
-located at marathalli
-we are in a full stack mode
+Name is prasanna
+Gross Salary is 20000
+Name is lavanya
+Gross Salary is 15000
+Name is meghana
+Gross Salary is 65000
+Name is prasanna
+Gross Salary is 21000
+Name is mahesh
+Gross Salary is 100000
+Name is manohar
+Gross Salary is 94000
+Name is vijhnatha
+Gross Salary is 61000
+Name is deepthi
+Gross Salary is 81000
+Name is raghu
+Gross Salary is 160000
+Name is sri ram
+Gross Salary is 166364
+Name is bhanu prakash
+Gross Salary is 21400
+Name is akash
+Gross Salary is 220267

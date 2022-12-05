@@ -48,3 +48,4 @@ def operation():
         print("Give the valid input")
         operation()
 
+operation()
