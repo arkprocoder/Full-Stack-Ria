@@ -7,6 +7,24 @@ def factorial(n):
 n=int(input("enter the number to find its factorial :\n"))
 res=factorial(n)
 print("factorial",res)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 '''
 # flow control of pgm
 input is 5
