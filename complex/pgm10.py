@@ -18,7 +18,7 @@ for i in numbers:
     res=list(map(lambda x:x(i),functions))
     print(res)
 
-
+'''
 1st iteration
 
 
@@ -70,3 +70,4 @@ output :
 [36, 216]
 [64, 512]
 
+'''
