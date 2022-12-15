@@ -22,6 +22,7 @@ class Child(Parent):
         self.age=age
 
     def childDetails(self):
+        z="aa"
         print(f"Name is {self.name}\nHeight is {self.height}\nBlood Group {self.bloodgroup}\nWeight is {self.weight}\nAge is {self.age}")
 
 

@@ -1,7 +1,7 @@
-1)Write a python program for single level inheritance
+'''1)Write a python program for single level inheritance
 a)create a class Company which takes 5 arguements
-'''wfh=2
-wfo=3 create 2 class varaibles''''
+wfh=2
+wfo=3 create 2 class varaibles
 1.employee Name
 2.employee Skills
 3.employee roleMatch
@@ -23,3 +23,4 @@ a)create a class Employee and inherit Company Properties and  it takes 7 argueme
 
 create a method employeeDetails() its print all data
 create a static method which print greetings
+'''
