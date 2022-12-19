@@ -1,0 +1,14 @@
+1)Create a abstract class RIA add a class varaible location and store "Marathalli"
+Create the below abstractmethods 
+a)full_stack
+b)python_course
+c)java_course
+d)sap_course
+e)devops
+f)spokenEnglish
+
+2)Create Candidate class and inherit RIA
+a)create Constructor which takes 4 arguements
+[candidateName,candidateEmail,candidateCourse,CourseDuration]
+
+create a function to print the candidateName,candidateEmail,candidateCourse,CourseDuration
