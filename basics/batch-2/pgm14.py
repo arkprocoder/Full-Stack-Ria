@@ -39,19 +39,22 @@
 # # greeting('rohit',12000)
 
 
-def GrossAmount(name,sal,bon):
-    print("Hey ",name)
-    gross=sal+bon
-    f=open("data.txt","a")
-    f.write(f'\nName is {name}\nGross Salary is {gross}')
-    f.close()
-    return gross
+# def GrossAmount(name,sal,bon):
+#     print("Hey ",name)
+#     gross=sal+bon
+#     f=open("data.txt","a")
+#     f.write(f'\nName is {name}\nGross Salary is {gross}')
+#     f.close()
+#     return gross
 
-for i in range(1,12):
-    print(i,"iteration")
-    name=input("enter the name :\n")
-    sal=int(input("Enter the Salary:\n"))
-    bonussal=int(input("Enter the Bonus Salary:\n"))
-    gross=GrossAmount(name,sal,bonussal)
-    print(f'Gross salary is {gross}')
+# for i in range(1,12):
+#     print(i,"iteration")
+#     name=input("enter the name :\n")
+#     sal=int(input("Enter the Salary:\n"))
+#     bonussal=int(input("Enter the Bonus Salary:\n"))
+#     gross=GrossAmount(name,sal,bonussal)
+#     print(f'Gross salary is {gross}')
     
+fullname="rohanshetty@gmail.com"
+print(fullname.split("@")[0])
+print(fullname.split("@")[1])

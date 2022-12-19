@@ -1,0 +1,15 @@
+# regular expression
+
+\A : the resultant is a match if the input characters are at the beginning of the string
+\b : the resultant is a match wheter the input are the beginning or at the end.EncodingWarning
+\d : the resultant is a match of a string if it is containing a digits
+\s : the resultant is a match of a string contains white space characters
+
+' . ' : Matches any single character except new line  
+'$' : Matches at the end of the string 
+' *' Matches zero or more repetitions 
+'+ '  Matches 1 or more repetitions 
+'{}' Matches an explicitly specified number of repitation
+'[] ' Matches Specifies a character class 
+| Either or 
+() Capture and group
