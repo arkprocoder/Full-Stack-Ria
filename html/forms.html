@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in html</title>
+
+</head>
+<body>
+    <h1>
+        <Center>Forms </Center>
+    </h1>
+    <hr>
+    <fieldset>
+        
+    <legend>Fill the form</legend>
+    <form action="" method="get">
+
+        <label for="fname"><b>First Name</b></label>
+        <input type="text" name="firstName" id="fname"  required>
+
+        <label for="lname"><b>Last Name</b></label>
+        <input type="text" name="lastName" id="lname" required>
+     <hr>
+        <label for="age"><b>Age</b></label>
+        <input type="number" name="age" id="age" required>
+
+        <label for="phone"><b>Phone Number</b></label>
+        <input type="tel" name="phone" id="phone" required>
+<hr> 
+<label for="dob"><b>Date Of Birth</b></label>
+<input type="date" name="dob" id="dob" required>
+
+
+<label for="tm"><b>Time</b></label>
+<input type="time" name="tm" id="tm" required>
+
+
+<label for="Hospital"><b>Hospital</b></label>
+<input type="text" name="Hospital" id="Hospital" placeholder="Enter Hospital Name" value="Baptist" required>
+
+<hr>
+
+
+<label for="email"><b>Email</b></label>
+<input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
+
+
+<label for="adhar"><b>Upload adhar</b></label>
+<input type="file" name="adhar" id="adhar" required>
+
+
+<label for="pass1">Password</label>
+<input type="password" name="pass1" id="pass1" required>
+
+<hr>
+<label for="cr"><b>Select Color</b></label>
+<input type="color" name="cr" id="cr" required>
+<hr>
+<div>
+<label for="language"><b>Select language</b></label>
+<br>
+ <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</div>
+<hr>
+<label for="a"><b>Select Vehicles</b></label>
+<br>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> I have a bike</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2"> I have a car</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> I have a boat</label>
+<hr>
+<label for="cars"><b>Choose a car:</b></label> 
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audiiii">Audi</option>
+</select>
+<hr>
+<label for="cars"><b>Choose a car:</b></label>
+<select id="cars" name="cars" size="2">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+<hr>
+<label for="cars"><b>Choose a car:</b></label>
+<select id="cars" name="cars" size="4" multiple>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+  <option value="suzuki">suzuki</option>
+  <option value="boleno">boleno</option>
+</select>
+<hr>
+<textarea name="desc" id="desc" cols="10" rows="5" placeholder="How Can i help?"></textarea>
+
+<hr>
+
+<label for="state"><b> State</b></label>
+<input list="states" name="state">
+  <datalist id="states">
+    <option value="Karnataka">
+    <option value="Andra">
+    <option value="Tamil nadu">
+    <option value="maharastra">
+    <option value="uttar pradesh">
+  </datalist>
+  
+  <input type="range" id="a" name="a" value="100">
+
+<hr>
+<button type="submit">Submit </button>
+</form>
+</fieldset>
+
+   
+</body>
+</html>
