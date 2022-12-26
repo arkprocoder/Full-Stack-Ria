@@ -1,0 +1,60 @@
+* {
+    text-align: center;
+    font-family:cursive;
+    
+  }
+
+h1{
+    color: gold;
+    background-color: black;
+    border: 2px solid red;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    /* padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 65px;
+    margin-right: 100px;
+    margin-left: 100px; */
+}
+
+p{
+   color:
+   #ffff;
+   background-color: hsl(39, 100%, 50%);
+}
+
+h5{
+background-color: red;
+  opacity: 0.6;
+  padding: 25px;
+  color: white;
+  font-weight: bold;
+  font-size: xx-large;
+}
+main{
+    background-image: url('../img/bgimage.jpeg');
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y;
+     */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    /* background-position: center;
+    background-position: 50% 50%; */
+   
+    /* background-position: bottom right;
+    background-position: bottom left;  */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 80vh;
+}
+.container{
+    height: 50vh;
+    background-image: url('../img/bg2.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+

@@ -1,0 +1,49 @@
+/* This is a single-line comment */
+
+* {
+    text-align: center;
+    font-family:cursive;
+  }
+
+h1{
+    color: brown;
+    text-align: center;
+    background-color: antiquewhite;
+
+}
+p{
+    color: white;
+    background-color: grey;
+    text-align: center;
+}
+
+.classselector{
+    color: rgb(145, 5, 245);
+    background-color: darkkhaki;
+    text-align: center;
+}
+
+.para{
+    color: red;
+    text-align: center;
+    background-color: bisque;
+}
+
+#idsel{
+    color: lightyellow;
+    background-color: black;
+    text-align: center;
+}
+#parasel{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+h3,h4,h5{
+    color: fuchsia;
+}
+
+p.intro{
+    color: chartreuse;
+}
