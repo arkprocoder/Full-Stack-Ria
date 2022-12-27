@@ -1,0 +1,43 @@
+.static{
+    /* position: static; */
+    position: relative;
+    /* position: absolute; */
+    border: 2px solid salmon;
+    /* left: 50px; */
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 1px solid gray;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.sticky {
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    background-color: black;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+  }
+
+  h5{
+    background-color: red;
+    color: white;
+    font-size: 50px;
+    display: inline;
+    padding: 5px;
+    text-align: center;
+  }
+
+  h5:hover{
+    background-color: black;
+    color: white;
+  }
