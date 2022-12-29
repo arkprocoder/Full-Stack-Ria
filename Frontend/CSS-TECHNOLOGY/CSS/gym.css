@@ -1,0 +1,132 @@
+body{
+    font-family: cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-image: url('../img/gym1.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+    left: 24px;
+    border: 7px solid;
+}
+.left img{
+width: 75px;
+filter: invert(100);
+}
+
+.middle{
+    display: block;
+    width: 70%;
+    margin: 9px auto;
+  
+
+}
+
+.navbar{
+    display: inline-block;
+ 
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.navbar li a{
+    color: white;
+    padding: 34px 20px;
+    text-decoration: none;
+
+}
+
+.navbar li a:hover{
+    color: rgb(219, 219, 226);
+    text-decoration: underline;
+
+}
+
+.right{
+    position: absolute;
+        right: 34px;
+        top: 19px;
+        display: inline-block;
+}
+.right button{
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+
+
+.container {
+    border: 2px solid white;
+    margin: 56px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: cursive;
+    text-align: center;
+    display: block;
+    width: 428px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 57px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.btn-submit{
+    font-family: cursive;
+    text-align: center;
+    display: block;
+    width: 428px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 57px;
+}
+.form-group input:hover{
+    background-color: burlywood;
+}
+.btn-submit:hover{
+    background-color: black;
+    color: white;
+}
+
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif';
+    font-size: 1.8rem;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.0rem;
+    font-family: 'Bree Serif';
+}
