@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,500;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bitter', serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 23px 28px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.rightnav {
+    width: 40%;
+    text-align: right;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 12px;
+}
+
+#search {
+    padding: 11px;
+    border-radius: 12px;
+    font-size: 9px;
+    border: 2px solid white;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0) url('../img/img1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+
+}
+
+.chotu {
+    height: 200px;
+    border-radius: 22px;
+}
+
+.firstsection {
+    height: 100vh;
+}
+
+.firsthalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf {
+    width: 30%;
+    border-radius: 16px;
+}
+
+.text-small {
+    font-size: 25px;
+}
+
+.text-big {
+    font-size: 50px;
+}
+
+h6 {
+    font-size: 35px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.section {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.paras {
+    padding: 0px 65px;
+}
+
+.section-left {
+    flex-direction: row-reverse;
+}
+
+.imgFluid {
+    width: 250px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 8px 40px 8px 40px;
+    border: none;
+}
+
+
+.text-center {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#contact {
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 10px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    border: 2px solid gray;
+}
+
+#contact-box form {
+    width: 40%;
+}
+
+#contact-box input:hover {
+    background-color: lightgoldenrodyellow;
+    color: white;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+.burger {
+    position: absolute;
+    cursor: pointer;
+    right: 5px;
+    top: 15px;
+    display: none;
+}
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+@media only screen and (max-width:1140px) {
+
+    .nav-list {
+        flex-direction: column;
+    }
+    .navbar {
+        flex-direction: column;
+        transition: all 0.1s ease-out;
+        height: 400px;
+    }
+    .rightnav {
+        text-align: center;
+    }
+    #search {
+        width: 100%;
+    }
+    .burger {
+        display: block;
+    }
+    .h-nav-resp {
+        height: 72px;
+    }
+    .v-class-resp {
+        opacity: 0;
+    }
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .chotu {
+        height: 94px;
+        width: 93px;
+        border-radius: 122px;
+    }
+    .section {
+        flex-direction: column;
+    }
+    .text-small {
+        text-align: center;
+    }
+    .text-big {
+        text-align: center;
+    }
+    .buttons {
+        text-align: center;
+    }
+    .paras {
+        padding: 0px 15px;
+    }
+    .btn-lg {
+        width: 340px;
+    }
+    #contact-box form {
+        width: 80%;
+    }
+    .imgFluid {
+        margin-top: 22px;
+    }
+}
