@@ -14,3 +14,21 @@ bool=Boolean('ane');
 console.log(bool, typeof bool);
 data=Array(data)
 console.log(data, typeof data);
+
+let array= [1,2,3,4,5];
+console.log(array.length);
+
+let i=20;
+console.log(i.toString());
+console.log(typeof i.toString());
+
+let number = Number('333.456789')
+number=number.toFixed(2);
+console.log(number, typeof number);
+
+let num=parseFloat('456.789');
+console.log(num, typeof num);
+
+let a="23";
+let b=20;
+console.log(Number(a)+b);
