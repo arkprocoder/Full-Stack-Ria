@@ -39,4 +39,64 @@ do {
 
 }
  while (s < 100);
-console.log("done appa");
+
+ 
+ 
+// continue statements
+
+// let r = 0;
+// console.log("-conntinue");
+// do {
+//     if (r === 5) {
+//         r=r+1;
+//         continue
+//     }
+//     r=r+1;
+//     console.log(r);
+
+// } while (r < 10);
+
+// for(let i=1;i<=20;i++)
+// {
+//     if(i==15){
+//         continue
+//     }
+//     console.log(i);
+// }
+
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+array.forEach(function(item,index,array) {
+    console.log(item,index,array);
+    // can give index and array as arguements also
+});
+array.forEach(function(item) {
+    console.log(item);
+   
+});
+console.log("done ");
+
+
+array.forEach(function(item,index) {
+    console.log(item,index);
+   
+});
+console.log("done ");
+
+
+
+let obj = {
+    name: "anees ",
+    age:22,
+
+    // cannot use = symbol and intialize;remember it
+    status: 'programmer',
+    college: 'svce'
+}
+
+
+let key;
+for (key in obj) {
+    console.log(`the ${key} of object is ${obj[key]}`)
+    console.log(`the {name} of object is ${obj[name]}`)
+    console.log(`the {name} of object is {anees}`)
+}

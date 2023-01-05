@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bio data</title>
+  </head>
+  <body>
+    <button type="submit" onclick="show()">Show Data</button>
+    <button type="submit" onclick="hide()">Hide Data</button>
+    <div>
+      <h2>Name : <span id="name"> </span></h2>
+      <h2>Age : <span id="age"> </span></h2>
+      <h2>Phone Number :<span id="num1"></span></h2>
+      <h2>Degree : <span id="degree"></span></h2>
+      <h2>Company : <span id="company"></span></h2>
+    </div>
+   <script src="../js/js12.js">
+   </script>
+    <script>
+      function show() {
+        console.log("clicked");
+        let ele1 = document.getElementById("name");
+        let ele2 = document.getElementById("age");
+        let ele3 = document.getElementById("num1");
+        let ele4 = document.getElementById("degree");
+        let ele5 = document.getElementById("company");
+        
+        ele1.innerHTML = "<b>Anees </b>";
+        ele1.style.color = "red";
+        ele2.innerHTML = "<b>25 </b>";
+        ele1.style.color = "green";
+        ele3.innerHTML = "<b>7896541230 </b>";
+        ele3.style.color = "purple";
+        ele4.innerHTML = "<b>Cs engineering </b>";
+        ele5.innerHTML = "<b> Infosys </b>";
+      }
+      function hide() {
+        console.log("clicked");
+        let ele1 = document.getElementById("name");
+        let ele2 = document.getElementById("age");
+        let ele3 = document.getElementById("num1");
+        let ele4 = document.getElementById("degree");
+        let ele5 = document.getElementById("company");
+
+        ele1.innerHTML = "";
+        ele1.style.color = "";
+        ele2.innerHTML = "";
+        ele1.style.color = "";
+        ele3.innerHTML = "";
+        ele3.style.color = "";
+        ele4.innerHTML = "";
+        ele5.innerHTML = "";
+      }
+    </script>
+  </body>
+</html>
