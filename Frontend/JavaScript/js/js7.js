@@ -1,4 +1,4 @@
-/* console.log("if else loop");
+console.log("if else loop");
 const age = 25;
 
 if (age >= 2) {
@@ -95,7 +95,7 @@ else{
     console.log("else");
 }
 
-*/
+
 
 
 // switch case statements;
