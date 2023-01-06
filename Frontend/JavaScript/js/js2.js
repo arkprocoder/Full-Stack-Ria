@@ -15,11 +15,11 @@ console.log(nationality);
 // nationality="aaa";
 
 const age = 27 ;{
-    let name="ria"
+    let name="Ark"
     console.log(name);
 
 }
-let name="instiute"
+let name="Pro Coder"
 console.log(name);
 
 const arr=[1,2,3,4,5,6]
