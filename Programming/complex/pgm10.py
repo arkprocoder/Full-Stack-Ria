@@ -1,7 +1,7 @@
 # map()
 # 1
-numbers=[1,2,3,4,5,6,7]
-res=list(map((lambda x:x*2),numbers))
+numbers=[1,2,3,4]
+res=list(map((lambda x:x**2),numbers))
 print(res)
 
 # 2
