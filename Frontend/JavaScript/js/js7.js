@@ -107,17 +107,17 @@ switch (your_age) {
         break;
 
     case 22:
-        console.log("you are 22")
+        console.log("you are 24")
         break;
 
 
     case 25:
-        console.log("you are 25")
+        console.log("you are 23")
         break
         
 
     case 30:
-        console.log("you are 30")
+        console.log("you are 25")
         break;
 
     case 31:
