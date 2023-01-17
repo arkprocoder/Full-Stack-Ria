@@ -14,11 +14,9 @@ finally:
 
 def Divide(a,b):
     try:
-        print(a/b)
         print("i am try block")
 
     except ZeroDivisionError as e:
-        print(e)
         print("i am except block")
 
     else:
