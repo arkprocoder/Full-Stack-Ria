@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% block title %}
+Home
+{% endblock title %}
+{% block corousel %}
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex justify-content-center align-items-center">
+    <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Better Education for Better Future</h1>
+      <h2>We are team of talented trainers </h2>
+      <a href="/courses" class="btn-get-started">Know Mores</a>
+    </div>
+  </section><!-- End Hero -->
+{% endblock corousel %}
+{% block firstSection %}
+{% load static %}
+<div class="row">
+  <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+    <img src="{% static 'assets/img/firstsection.png' %}" class="img-fluid" alt="">
+  </div>
+  <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+    <h3>Best Software Training Institute in Marathahalli</h3>
+    <p class="fst-italic">
+      Ria Institute of Technology is a fast growing Information Technology company that has spread its wings in the areas of Software Development, Corporate Training & Staffing to cater to the needs of varied set of clients. Ria, one of the best software training institute in Marathahalli is managed by a group of professionals who have wide expertise in various areas of business.
+    </p>
+    <p class="fst-italic">
+      The core management group is young, dynamic and result oriented with a clear aim to excel in the area of business they do and are strongly committed to quality and customer satisfaction in all the aspects of work we do. Ria is also one of the best IT training institute in Marathahalli
+    </p>
+    <ul>
+      <li><i class="bi bi-check-circle"></i> Software Testing</li>
+      <li><i class="bi bi-check-circle"></i>Programming Languages</li>
+      <li><i class="bi bi-check-circle"></i>Full Stack Python/Java Development </li>
+    </ul>
+    
+
+  </div>
+</div>
+{% endblock firstSection %}
+{% block body %}
+{% load static %}
+
+  <!-- ======= Counts Section ======= -->
+  <section id="counts" class="counts section-bg">
+    <div class="container">
+
+      <div class="row counters">
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="0" data-purecounter-end="1232" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Students</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="0" data-purecounter-end="64" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Courses</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Events</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Trainers</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Counts Section -->
+
+{% endblock body %}

@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+{% block title %}
+Login
+{% endblock title %}
+
+{% block firstSection %}
+<br>
+<br>
+<br>
+<div class="row">
+
+
+<div class="col-md-4"></div>
+<div class="col-md-4">
+
+
+
+<div class="card p-3 mt-6">
+
+    <div class="card-body">
+
+
+
+  {% include 'messages.html' %}
+  
+  <h3 class="text-dark text-center">Login</h3>
+<hr>
+  <form action="/login" method="post">{% csrf_token %}
+    <br />
+
+   
+    <label for="email">Email</label>
+    <div class="form-group">
+      <input
+        type="email"
+        class="form-control p-2"
+        id="email"
+        name="email"
+        required
+      />
+    </div>
+    <label for="pass1">Password</label>
+    <div class="form-group">
+      <input
+        type="password"
+        class="form-control p-2"
+        id="pass1"
+        name="pass1"
+        required
+      />
+    </div>
+  
+    <br />
+    <div class="d-grid gap-2">
+    <button type="submit" class="btn btn-success get-started-btn">SignIn</button>
+</div>   
+    <br />
+    New User? <a href="/signin">SignUp</a>
+    <br />
+    Forget Password <a href="/request-reset-email/">Click</a>
+    <br />
+</div>   
+  
+  </form>
+</div>
+
+
+
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+</div>
+<div class="col-md-4"></div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+{% endblock firstSection %}
