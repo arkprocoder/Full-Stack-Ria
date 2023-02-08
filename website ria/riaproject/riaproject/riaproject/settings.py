@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'allauth.account',  
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google', 
+    'ckeditor',
 ]
 
 AUTHENTICATION_BACKENDS = ( 'django.contrib.auth.backends.ModelBackend', 'allauth.account.auth_backends.AuthenticationBackend', )
@@ -149,7 +150,8 @@ import os
 STATIC_URL = 'static/'
 STATICFILES_DIRS=[os.path.join(BASE_DIR,'static')]
 
-
+MEDIA_URL ='/media/'
+MEDIA_ROOT =os.path.join(BASE_DIR,"media")
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
@@ -159,3 +161,6 @@ MESSAGE_TAGS = {
     messages.ERROR:'danger'
 }
 # https://github.com/arkprocoder/YOUTUBE-ARKPROCODER-DJANGO/blob/master/googleaccount_commands.md
+
+
+# pip install django-ckeditor

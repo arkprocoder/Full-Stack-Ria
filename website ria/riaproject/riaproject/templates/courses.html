@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}
+Courses
+{% endblock title %}
+{% block body %}
+{% load static %}
+<h1 class="text-center">Avaible Courses</h1>
+<hr>
+<div class="container mt-3">
+<div class="row">
+
+
+{% for c in courses %}
+
+
+<div class="col-md-4">
+
+    <div class="card">
+        <img src="{{c.image.url}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{c.courseName}}</h5>
+          <p class="card-text">Fee :{{c.courseFee}} rs</p>
+          <a href="/" class="btn btn-primary">Know More</a>
+        </div>
+      </div>
+
+{% endfor %}
+
+</div>
+</div>
+</div>
+{% endblock body %}

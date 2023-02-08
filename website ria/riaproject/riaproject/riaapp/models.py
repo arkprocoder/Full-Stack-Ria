@@ -1,5 +1,5 @@
 from django.db import models
-
+from ckeditor.fields import RichTextField 
 # Create your models here.
 class Register(models.Model):
     firstName=models.CharField(max_length=20)
@@ -26,8 +26,12 @@ class Register(models.Model):
 
 class Courses(models.Model):
     courseName=models.CharField(max_length=150)
+    image=models.ImageField(upload_to="course",blank=True,null=True)
     courseFee=models.IntegerField()
     courseDuration=models.IntegerField()
+    syllabus=RichTextField(default="syllabus")
+    aboutCourse=RichTextField(default="aboutCourse")
+
     def __str__(self):
         return self.courseName
 
@@ -37,14 +41,14 @@ class Payments(models.Model):
     balance=models.IntegerField(blank=True,null=True)
     status= models.CharField(max_length=20,default="Unpaid")
     def __str__(self):
-        return self.courseName
+        return self.name
 
 class Documents(models.Model):
     email=models.ForeignKey(Register,on_delete=models.CASCADE)
     document=models.ImageField(upload_to='documents')
     verification=models.BooleanField(default=False)
     def __str__(self):
-        return self.name
+        return self.email
 
 
 class Certificate(models.Model):

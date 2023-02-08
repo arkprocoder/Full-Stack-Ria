@@ -19,8 +19,13 @@ Enroll
             <form action="" method="post">
 
             <div class="form-group">
-                <label for="name"><b>Name </b></label>
-                <input type="text" class="form-control" name="name" id="name" required>
+                <label for="fname"><b>First Name </b></label>
+                <input type="text" class="form-control" name="fname" id="fname" required>
+
+            </div>
+            <div class="form-group">
+                <label for="lname"><b>Last Name </b></label>
+                <input type="text" class="form-control" name="lname" id="lname" required>
 
             </div>
             <div class="form-group">
@@ -64,14 +69,20 @@ Enroll
             </div>
             <div class="form-group">
 
+                <label for="landmark"><b>Landmark</b> </label>
+                <input class="form-control" type="text" name="landmark " id="landmark" required>
+
+            </div>
+            <div class="form-group">
+
                 <label for="street"><b>Street</b> </label>
                 <input class="form-control" type="text" name="street " id="street" required>
 
             </div>
             <div class="form-group">
 
-                <label for="area"><b>Area</b> </label>
-                <input class="form-control" type="text" name="area" id="area" required>
+                <label for="pcode"><b>Pin Code</b> </label>
+                <input class="form-control" type="number" name="pcode" id="pcode" required>
 
             </div>
             <div class="form-group">
@@ -79,27 +90,27 @@ Enroll
                 <input class="form-control" type="text" name="city" id="city" required>
 
             </div>
+         
             <div class="form-group">
-                <label for="officeaddress"><b>Office Address</b></label>
-                <input class="form-control" type="text" name="officeaddress" id="officeaddress">
-
-            </div>
-
-            <div class="form-group">
-                <label for="companyname"> <b>Company Name:</b></label>
+                <label for="companyname"> <b>Company Name</b></label>
                 <input type="text" name="companyname" class="form-control" id="companyname">
 
             </div>
             <div class="form-group">
                 <label for="Designation"><b>Designation</b></label>
-                <input class="form-control" type="text" name="Designation" id="Designation">
+                <input class="form-control" type="text" name="Designation" id="Designation" required>
+
+            </div>
+            <div class="form-group">
+                <label for="Qualification"><b>Qualification</b></label>
+                <input class="form-control" type="text" name="Qualification" id="Qualification" required>
 
             </div>
 
+<br>
 
 
-
-            <label><b>Computer Knowledge :</b></label>
+            <label><b>Computer Knowledge </b></label>
             <div class="form-check-inline">
                 <label for="basic">Basic</label>
                 <input type="radio" class="form-check-input" id="basic" name="cknowledge" value="Basic">
@@ -119,98 +130,23 @@ Enroll
 
             </div>
             <hr>
-            <label for=""><b>Qualification</b></label>
+            
+            
 
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" name="qualification" type="radio" id="10th" value="10th">
-                <label class="form-check-label" for="10th">10th</label>
-            </div>
+            <div class="form-group">
+                <label for="scourse"><b>Select Course</b></label>
+                <select class="form-control" id="scourse" name="scourse">
 
+              <option value="Select">Select </option>
+               {% for c in courses %}
+               
+               <option value="{{c.courseName}}">{{c.courseName}}</option>
+              
 
-
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" name="qualification" type="radio" id="12th" value="12th">
-                <label class="form-check-label" for="12th">12th</label>
-            </div>
-            <hr>
-
-            <label for="">Programming Course</label>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">Java</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Python</label>
-            </div>
-            <hr>
-            <label for="">Software Course</label>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">Front-End</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Back-End</label>
-            </div>
-            <hr>
-            <label for="">Hardware Course</label>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">IOT</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Rasberry</label>
-            </div>
-            <hr>
-
-            <label for="">SAP Courses</label>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">IOM</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">CGP</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">XYZ</label>
-            </div>
-            <hr>
-            <label for="">Spoken English</label>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">Basic</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Intermediate</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Advance</label>
-            </div>
-
-            <hr>
-
-
-            <label for="">Other Professional Courses</label>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">Basic</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Intermediate</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">Advance</label>
-            </div>
-
-
+               {% endfor %}
+               
+                </select>
+              </div>
 
 
 

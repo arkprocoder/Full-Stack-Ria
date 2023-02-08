@@ -11,6 +11,7 @@ from django.conf import settings
 from django.views.generic import View
 from django.contrib.auth import authenticate,login,logout
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
+from riaapp.models import Courses
 # Create your views here.
 def index(request):
     return render(request, "home.html")
@@ -220,4 +221,11 @@ class SetNewPasswordView(View):
 
         
 def enroll(request):
-    return render(request,"enroll.html")
+    courses=Courses.objects.all()
+    context={"courses":courses}
+    return render(request,"enroll.html",context)
+
+def courses(request):
+    courses=Courses.objects.all()
+    context={"courses":courses}
+    return render(request,"courses.html",context)
